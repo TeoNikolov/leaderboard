@@ -34,9 +34,9 @@ The leaderboard is going to use the [BEAT-v2 dataset](https://pantomatrix.github
 4. The SMPL-X format is compatible with many other datasets
 5. It also includes facial expressions (a possible future addition for the leaderboard)
 
-Being a living leaderboard, the dataset used for benchmarking is expected to evolve in the future as newer datasets become available.
-
 ![Official BEAT dataset gif that shows several animated speaking avatars.](https://pantomatrix.github.io/EMAGE/assets/video_t.gif "Speaking BEAT dataset avatars")
+
+Being a living leaderboard, the dataset used for benchmarking is expected to evolve in the future as newer datasets become available.
 
 ## How to participate
 To participate in the evaluation, you will need to:
@@ -57,6 +57,21 @@ For **motion naturalness**, we will use an ELO-based system with pairwise compar
 To accurately quantify **motion appropriateness**, we will use a mismatching procedure based on the [GENEA Challenges](https://arxiv.org/abs/2308.12646).
 
 The leaderboard will also all commonly used objective metrics and model properties such as size, memory usage, etc.
+
+<figure>
+<img src="https://genea-workshop.github.io/2023/challenge/visualiser.gif" alt="Gif of the genea challenge 2023 visualizer." width="42em"/>
+<figcaption>Example stimulus used in the GENEA Challenge 2023 evaluation</figcaption>
+</figure>
+
+<figure>
+<img src="./assets/img/human-likeness_gui.png" alt="Image shows the HEMVIP interface for evaluating human-likeness (motion naturalness) used in GENEA Challenge 2023." width="42em"/>
+<figcaption>HEMVIP interface for evaluating human-likeness (motion naturalness) in GENEA Challenge 2023.</figcaption>
+</figure>
+
+<figure>
+<img src="./assets/img/speech_approp_gui.png" alt="Image shows the HEMVIP interface for evaluating speech-appropriateness (motion appropriateness) used in GENEA Challenge 2023." width="42em"/>
+<figcaption>HEMVIP interface for evaluating speech appropriateness (motion appropriateness) in GENEA Challenge 2023.</figcaption>
+</figure>
 
 ## Timeline
 Our current plan is to gather submissions for the first evaluation until the **end of October**, and to launch the leaderboard by the end of the year.
