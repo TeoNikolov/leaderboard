@@ -35,7 +35,7 @@ The leaderboard is going to use the [BEAT-v2 dataset](https://pantomatrix.github
 5. It also includes facial expressions (a possible future addition for the leaderboard)
 
 <figure>
-<img src="https://pantomatrix.github.io/EMAGE/assets/video_t.gif" alt="Official BEAT dataset gif that shows several animated speaking avatars." width="42em"/>
+<img src="https://pantomatrix.github.io/EMAGE/assets/video_t.gif" alt="Official BEAT dataset gif that shows several animated speaking avatars." width="560"/>
 <figcaption>Speaking BEAT dataset avatars.</figcaption>
 </figure>
 
@@ -50,7 +50,7 @@ To participate in the evaluation, you will need to:
 ## Evaluation methodology
 
 <figure>
-<img src="https://genea-workshop.github.io/2023/challenge/visualiser.gif" alt="Gif of the genea challenge 2023 visualizer." width="42em"/>
+<img src="https://genea-workshop.github.io/2023/challenge/visualiser.gif" alt="Gif of the genea challenge 2023 visualizer." width="560"/>
 <figcaption>Example stimulus used in the GENEA Challenge 2023 dyadic speech appropriateness evaluation</figcaption>
 </figure>
 
@@ -64,14 +64,14 @@ The human evaluation will use a standardised visualisation with a free and open-
 For **motion naturalness**, we will use an ELO-based system with pairwise comparisons (Bradley-Terry), similar to [Chatbot Arena](https://lmsys.org/blog/2023-12-07-leaderboard/#transition-from-online-elo-rating-system-to-bradley-terry-model).
 
 <figure>
-<img src="./assets/img/human-likeness_gui.png" alt="Image shows the HEMVIP interface for evaluating human-likeness (motion naturalness) used in GENEA Challenge 2023." width="24em"/>
+<img src="./assets/img/human-likeness_gui.png" alt="Image shows the HEMVIP interface for evaluating human-likeness (motion naturalness) used in GENEA Challenge 2023." width="560"/>
 <figcaption>HEMVIP interface for evaluating human-likeness (motion naturalness) in GENEA Challenge 2023.</figcaption>
 </figure>
 
 To accurately quantify **motion appropriateness**, we will use a mismatching procedure based on the [GENEA Challenges](https://arxiv.org/abs/2308.12646).
 
 <figure>
-<img src="./assets/img/speech_approp_gui.png" alt="Image shows the HEMVIP interface for evaluating speech-appropriateness (motion appropriateness) used in GENEA Challenge 2023." width="24em"/>
+<img src="./assets/img/speech_approp_gui.png" alt="Image shows the HEMVIP interface for evaluating speech-appropriateness (motion appropriateness) used in GENEA Challenge 2023." width="560"/>
 <figcaption>HEMVIP interface for evaluating speech appropriateness (motion appropriateness) in GENEA Challenge 2023.</figcaption>
 </figure>
 
