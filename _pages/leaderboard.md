@@ -36,7 +36,7 @@ The leaderboard is going to use the [BEAT-v2 dataset](https://pantomatrix.github
 
 Being a living leaderboard, the dataset used for benchmarking is expected to evolve in the future as newer datasets become available.
 
-https://pantomatrix.github.io/EMAGE/assets/video_t.gif
+![Official BEAT dataset gif that shows several animated speaking avatars.](https://pantomatrix.github.io/EMAGE/assets/video_t.gif "Speaking BEAT dataset avatars")
 
 ## How to participate
 To participate in the evaluation, you will need to:
