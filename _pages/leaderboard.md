@@ -29,7 +29,7 @@ After this initial evaluation is completed, the leaderboard will become open to 
 
 ### Dataset
 <div style="text-align: center; margin-bottom: 2em;">
-<iframe width="90%" height="315" src="https://www.youtube.com/embed/T0OYPvViFGE?si=Di_7cDcs63DWJzHb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="80%" height="100%" src="https://www.youtube.com/embed/T0OYPvViFGE?si=Di_7cDcs63DWJzHb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <i>Official BEAT dataset video.</i>
 </div>
 
