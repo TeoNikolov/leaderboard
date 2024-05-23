@@ -34,7 +34,10 @@ The leaderboard is going to use the [BEAT-v2 dataset](https://pantomatrix.github
 4. The SMPL-X format is compatible with many other datasets
 5. It also includes facial expressions (a possible future addition for the leaderboard)
 
-![Official BEAT dataset gif that shows several animated speaking avatars.](https://pantomatrix.github.io/EMAGE/assets/video_t.gif "Speaking BEAT dataset avatars")
+<figure>
+<img src="https://pantomatrix.github.io/EMAGE/assets/video_t.gif" alt="Official BEAT dataset gif that shows several animated speaking avatars." width="42em"/>
+<figcaption>Speaking BEAT dataset avatars.</figcaption>
+</figure>
 
 Being a living leaderboard, the dataset used for benchmarking is expected to evolve in the future as newer datasets become available.
 
@@ -45,6 +48,12 @@ To participate in the evaluation, you will need to:
 3. Submit the generated motion to the leaderboard organisers, alongside your paper or brief technical report describing the details of your model. If submitting an already published model, you only need to document the adaptations you made for the new dataset.
 
 ## Evaluation methodology
+
+<figure>
+<img src="https://genea-workshop.github.io/2023/challenge/visualiser.gif" alt="Gif of the genea challenge 2023 visualizer." width="42em"/>
+<figcaption>Example stimulus used in the GENEA Challenge 2023 dyadic speech appropriateness evaluation</figcaption>
+</figure>
+
 We will recruit a large number of evaluators on a crowd-sourcing platform to conduct best-practises human evaluation on three aspects:
 1. Motion naturalness
 2. Motion appropriateness for the speech
@@ -54,24 +63,19 @@ The human evaluation will use a standardised visualisation with a free and open-
 
 For **motion naturalness**, we will use an ELO-based system with pairwise comparisons (Bradley-Terry), similar to [Chatbot Arena](https://lmsys.org/blog/2023-12-07-leaderboard/#transition-from-online-elo-rating-system-to-bradley-terry-model).
 
-To accurately quantify **motion appropriateness**, we will use a mismatching procedure based on the [GENEA Challenges](https://arxiv.org/abs/2308.12646).
-
-The leaderboard will also all commonly used objective metrics and model properties such as size, memory usage, etc.
-
 <figure>
-<img src="https://genea-workshop.github.io/2023/challenge/visualiser.gif" alt="Gif of the genea challenge 2023 visualizer." width="42em"/>
-<figcaption>Example stimulus used in the GENEA Challenge 2023 evaluation</figcaption>
-</figure>
-
-<figure>
-<img src="./assets/img/human-likeness_gui.png" alt="Image shows the HEMVIP interface for evaluating human-likeness (motion naturalness) used in GENEA Challenge 2023." width="42em"/>
+<img src="./assets/img/human-likeness_gui.png" alt="Image shows the HEMVIP interface for evaluating human-likeness (motion naturalness) used in GENEA Challenge 2023." width="24em"/>
 <figcaption>HEMVIP interface for evaluating human-likeness (motion naturalness) in GENEA Challenge 2023.</figcaption>
 </figure>
 
+To accurately quantify **motion appropriateness**, we will use a mismatching procedure based on the [GENEA Challenges](https://arxiv.org/abs/2308.12646).
+
 <figure>
-<img src="./assets/img/speech_approp_gui.png" alt="Image shows the HEMVIP interface for evaluating speech-appropriateness (motion appropriateness) used in GENEA Challenge 2023." width="42em"/>
+<img src="./assets/img/speech_approp_gui.png" alt="Image shows the HEMVIP interface for evaluating speech-appropriateness (motion appropriateness) used in GENEA Challenge 2023." width="24em"/>
 <figcaption>HEMVIP interface for evaluating speech appropriateness (motion appropriateness) in GENEA Challenge 2023.</figcaption>
 </figure>
+
+The leaderboard will also include all commonly used objective metrics and model properties such as size, memory usage, etc.
 
 ## Timeline
 Our current plan is to gather submissions for the first evaluation until the **end of October**, and to launch the leaderboard by the end of the year.
