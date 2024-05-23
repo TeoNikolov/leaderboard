@@ -24,8 +24,8 @@ To populate the leaderboard, we are currently inviting authors of up to 15 recen
 After this initial evaluation is completed, the leaderboard will become open to public submissions, and will be continuously updated by the GENEA team.
 
 ### Dataset
-
-![](<iframe width="560" height="315" src="https://www.youtube.com/embed/T0OYPvViFGE?si=Di_7cDcs63DWJzHb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> "Test")
+<iframe width="560" height="315" src="https://www.youtube.com/embed/T0OYPvViFGE?si=Di_7cDcs63DWJzHb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+*Official BEAT dataset video*
 
 The leaderboard is going to use the [BEAT-v2 dataset](https://pantomatrix.github.io/EMAGE/) in the SMPL-X format, without facial expressions. We think this data is the best candidate for an initial benchmark dataset for several reasons:
 1. It’s the largest public mocap dataset of gesturing (with 60 hours of data)
